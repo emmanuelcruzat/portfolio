@@ -54,6 +54,18 @@ ul {
     font-size: 50px;
   }
 
+  footer {
+    background-color: #333;
+    margin: 0;
+    width: 100%;
+    padding: 50px 0;
+  }
+
+footer a
+{
+  padding: 0 20px;
+}
+
   .section-header
   {
     margin-top: 100px;
@@ -64,14 +76,6 @@ ul {
   {
     text-align: center;
   }
-
-
-footer p {
-    background-color: #333;
-    margin: 0;
-    width: 100%;
-    padding: 50px 0;
-}
 
 .bold-p 
 {
@@ -149,6 +153,7 @@ footer p {
   border-radius: 10px;
   transition: 0.5s;
   padding: 5px 10px;
+  margin: 25px 0;
 }
 
 .glowbox:hover {
@@ -189,6 +194,12 @@ footer p {
 
 #njit-small {
   width: 85%;
+  margin: 0 auto;
+}
+
+#njit
+{
+  width: 100%;
   margin: 0 auto;
 }
 
