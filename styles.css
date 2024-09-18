@@ -21,6 +21,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    border-bottom: #545454 solid 3px;
 }
 
   li {
@@ -59,11 +60,12 @@ ul {
     margin: 0;
     width: 100%;
     padding: 50px 0;
+    border-top: #545454 solid 3px;
   }
 
 footer a
 {
-  padding: 0 20px;
+  margin: 0 0 0 50px;
 }
 
   .section-header
@@ -120,8 +122,8 @@ footer a
 
 .navbar-icon-button
 {
-  height: 25px;
-  width: 25px;
+  height: 30px;
+  width: 30px;
 }
 
 .navbar-icon
@@ -154,10 +156,13 @@ footer a
   transition: 0.5s;
   padding: 5px 10px;
   margin: 25px 0;
+  border: #3a4361 solid 3px;
 }
 
 .glowbox:hover {
   box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.5);
+  background-color: #333;
+  border: #545454 solid 3px;
   
 }
 
