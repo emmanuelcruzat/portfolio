@@ -43,12 +43,18 @@ ul {
   }
 
   main {
-    padding: 70px;
-    background-color: #333848;
+    padding: 70px 150px;
+    background: linear-gradient(#121315, #333848) ;
   }
 
   h1 {
     font-size: 50px;
+  }
+
+  .section-header
+  {
+    margin-top: 100px;
+    font-size: 30px;
   }
 
   .centered
@@ -56,11 +62,12 @@ ul {
     text-align: center;
   }
 
+
 footer p {
     background-color: #333;
     margin: 0;
     width: 100%;
-    padding: 30px 0;
+    padding: 50px 0;
 }
 
 .bold-p 
@@ -68,16 +75,16 @@ footer p {
   font-weight: bold;
 }
 .big-p {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .super-p {
   font-weight: bold;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .card {
-  padding: 100px 10px;
+  padding: 100px 10px 50px 10px;
   display: grid;
   grid-template-columns: 25% 70%;
   gap: 5%;
@@ -91,9 +98,25 @@ footer p {
   gap: 5%;
 }
 
-.experience-card p
+.experience-card p, .unstyled-experience-card p
 {
   margin: 6px auto;
+}
+
+.navbar-icon-button
+{
+  height: 25px;
+  width: 25px;
+}
+
+.navbar-icon
+{
+  height: 100%;
+}
+
+.float-right
+{
+  float: right;
 }
 
 #profile-pic
@@ -107,7 +130,25 @@ footer p {
   margin: 0 auto;
 } 
 
+.faint {
+  color: rgb(200, 200, 200);
+}
 #profile-pic:hover
 {
   box-shadow: 0 0 30px 10px rgba(255, 255, 255, 0.75);
+}
+/*Navbar styling*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #838383;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fff;
 }
