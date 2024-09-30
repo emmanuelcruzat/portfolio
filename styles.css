@@ -47,7 +47,7 @@ ul {
   }
 
   main {
-    padding: 70px 150px;
+    padding: 70px 225px;
     background: linear-gradient(#121315, #313c5e) ;
   }
 
@@ -95,8 +95,8 @@ footer a
 .card {
   padding: 100px 10px 50px 10px;
   display: grid;
-  grid-template-columns: 25% 70%;
-  gap: 5%;
+  grid-template-columns: 25% 65%;
+  gap: 10%;
 }
 
 .experience-card
@@ -163,7 +163,6 @@ footer a
   box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.5);
   background-color: #333;
   border: #545454 solid 3px;
-  
 }
 
 #profile-pic:hover
@@ -216,5 +215,10 @@ footer a
 #honors
 {
   border-radius: 100%;
+}
+
+.rounded
+{
+  border-radius: 10%;
 }
 
